@@ -1,0 +1,13 @@
+    
+ul.list-group {
+      margin-top: 1.5rem;
+      .todo-item {
+            border-radius: 5px;
+            margin-bottom: 2px;
+
+            .btn-sm {
+                  font-size:  .8rem;
+            }
+
+      }
+}
