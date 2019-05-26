@@ -5,7 +5,7 @@ import Todo from './Todo'
 const TodoList = ({ todos, toggleTodo }) => (
   <ul className="list-group">
     {todos.map(todo =>
-      <Todo  key={todo.id} {...todo}  />
+      <Todo  key={todo.id} {...todo}  onComplete={() => toggleTodo(todo.id)} />
     )}
   </ul>
 )

@@ -17,4 +17,5 @@ The designs supplied don't indicate any functionality available to the users, so
 With the selection of these the appropriate process will be carried out. i.e. Marking that task as completed, or deleting it from the list.
 
 ##    Storage of tasks
-Whilst a sample.json file has been supplied, I'd think localStorage could be useful here to save tasks to a users device.
+Whilst a sample.json file has been supplied, I think localStorage could be useful here to save tasks to a users device.
+
